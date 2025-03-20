@@ -6,17 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		374DA64D2D8B4E1A001E3FCE /* UserMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		374DA6642D8B4E22001E3FCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374DA65E2D8B4E22001E3FCE /* Preview Assets.xcassets */; };
+		374DA6652D8B4E22001E3FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374DA6602D8B4E22001E3FCE /* Assets.xcassets */; };
+		374DA6662D8B4E22001E3FCE /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA6612D8B4E22001E3FCE /* UserView.swift */; };
+		374DA6672D8B4E22001E3FCE /* ArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA6622D8B4E22001E3FCE /* ArchitectureApp.swift */; };
+		374DA66A2D8B4E45001E3FCE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA6692D8B4E45001E3FCE /* User.swift */; };
+		374DA6702D8B4E8E001E3FCE /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA66F2D8B4E8E001E3FCE /* UserManager.swift */; };
+		374DA6762D8B4F7C001E3FCE /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA6752D8B4F7C001E3FCE /* UserViewModel.swift */; };
+		374DA6782D8B508F001E3FCE /* CoreInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA6772D8B508F001E3FCE /* CoreInteractor.swift */; };
+		374DA67A2D8B53A5001E3FCE /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DA6792D8B53A5001E3FCE /* UserInteractor.swift */; };
+		378F48E22D8C3325006F36E9 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F48E12D8C3325006F36E9 /* DependencyContainer.swift */; };
+		378F48E42D8C333A006F36E9 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F48E32D8C3334006F36E9 /* Dependencies.swift */; };
+		378F48E62D8C348F006F36E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F48E52D8C348F006F36E9 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		374DA64F2D8B4E1A001E3FCE /* UserMVVM */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UserMVVM;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		374DA64D2D8B4E1A001E3FCE /* Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Architecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		374DA65E2D8B4E22001E3FCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		374DA6602D8B4E22001E3FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		374DA6612D8B4E22001E3FCE /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		374DA6622D8B4E22001E3FCE /* ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureApp.swift; sourceTree = "<group>"; };
+		374DA6692D8B4E45001E3FCE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		374DA66F2D8B4E8E001E3FCE /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		374DA6752D8B4F7C001E3FCE /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		374DA6772D8B508F001E3FCE /* CoreInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreInteractor.swift; sourceTree = "<group>"; };
+		374DA6792D8B53A5001E3FCE /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		378F48E12D8C3325006F36E9 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		378F48E32D8C3334006F36E9 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		378F48E52D8C348F006F36E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		374DA64A2D8B4E1A001E3FCE /* Frameworks */ = {
@@ -32,7 +51,7 @@
 		374DA6442D8B4E1A001E3FCE = {
 			isa = PBXGroup;
 			children = (
-				374DA64F2D8B4E1A001E3FCE /* UserMVVM */,
+				374DA6632D8B4E22001E3FCE /* Architecture */,
 				374DA64E2D8B4E1A001E3FCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,17 +59,100 @@
 		374DA64E2D8B4E1A001E3FCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				374DA64D2D8B4E1A001E3FCE /* UserMVVM.app */,
+				374DA64D2D8B4E1A001E3FCE /* Architecture.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		374DA65F2D8B4E22001E3FCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				374DA65E2D8B4E22001E3FCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		374DA6632D8B4E22001E3FCE /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				374DA67E2D8B57D9001E3FCE /* Assets */,
+				374DA67B2D8B5738001E3FCE /* Core */,
+				374DA66E2D8B4E84001E3FCE /* Manager */,
+				374DA65F2D8B4E22001E3FCE /* Preview Content */,
+				374DA67D2D8B577C001E3FCE /* Root */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		374DA6682D8B4E37001E3FCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				374DA6692D8B4E45001E3FCE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		374DA66B2D8B4E59001E3FCE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				374DA6792D8B53A5001E3FCE /* UserInteractor.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		374DA66E2D8B4E84001E3FCE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				374DA66F2D8B4E8E001E3FCE /* UserManager.swift */,
+				374DA6682D8B4E37001E3FCE /* Model */,
+				374DA66B2D8B4E59001E3FCE /* Service */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		374DA67B2D8B5738001E3FCE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				374DA67C2D8B574B001E3FCE /* User */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		374DA67C2D8B574B001E3FCE /* User */ = {
+			isa = PBXGroup;
+			children = (
+				374DA6612D8B4E22001E3FCE /* UserView.swift */,
+				374DA6752D8B4F7C001E3FCE /* UserViewModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		374DA67D2D8B577C001E3FCE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				378F48E52D8C348F006F36E9 /* AppDelegate.swift */,
+				374DA6772D8B508F001E3FCE /* CoreInteractor.swift */,
+				378F48E32D8C3334006F36E9 /* Dependencies.swift */,
+				378F48E12D8C3325006F36E9 /* DependencyContainer.swift */,
+				374DA6622D8B4E22001E3FCE /* ArchitectureApp.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		374DA67E2D8B57D9001E3FCE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				374DA6602D8B4E22001E3FCE /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		374DA64C2D8B4E1A001E3FCE /* UserMVVM */ = {
+		374DA64C2D8B4E1A001E3FCE /* Architecture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 374DA65B2D8B4E1B001E3FCE /* Build configuration list for PBXNativeTarget "UserMVVM" */;
+			buildConfigurationList = 374DA65B2D8B4E1B001E3FCE /* Build configuration list for PBXNativeTarget "Architecture" */;
 			buildPhases = (
 				374DA6492D8B4E1A001E3FCE /* Sources */,
 				374DA64A2D8B4E1A001E3FCE /* Frameworks */,
@@ -60,14 +162,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				374DA64F2D8B4E1A001E3FCE /* UserMVVM */,
-			);
-			name = UserMVVM;
+			name = Architecture;
 			packageProductDependencies = (
 			);
-			productName = UserMVVM;
-			productReference = 374DA64D2D8B4E1A001E3FCE /* UserMVVM.app */;
+			productName = Architecture;
+			productReference = 374DA64D2D8B4E1A001E3FCE /* Architecture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 374DA6482D8B4E1A001E3FCE /* Build configuration list for PBXProject "UserMVVM" */;
+			buildConfigurationList = 374DA6482D8B4E1A001E3FCE /* Build configuration list for PBXProject "Architecture" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				374DA64C2D8B4E1A001E3FCE /* UserMVVM */,
+				374DA64C2D8B4E1A001E3FCE /* Architecture */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374DA6642D8B4E22001E3FCE /* Preview Assets.xcassets in Resources */,
+				374DA6652D8B4E22001E3FCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +220,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374DA6662D8B4E22001E3FCE /* UserView.swift in Sources */,
+				374DA6672D8B4E22001E3FCE /* ArchitectureApp.swift in Sources */,
+				374DA6782D8B508F001E3FCE /* CoreInteractor.swift in Sources */,
+				378F48E42D8C333A006F36E9 /* Dependencies.swift in Sources */,
+				374DA6702D8B4E8E001E3FCE /* UserManager.swift in Sources */,
+				374DA66A2D8B4E45001E3FCE /* User.swift in Sources */,
+				374DA6762D8B4F7C001E3FCE /* UserViewModel.swift in Sources */,
+				378F48E22D8C3325006F36E9 /* DependencyContainer.swift in Sources */,
+				378F48E62D8C348F006F36E9 /* AppDelegate.swift in Sources */,
+				374DA67A2D8B53A5001E3FCE /* UserInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UserMVVM/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Architecture/Preview Content\"";
 				DEVELOPMENT_TEAM = R5L72AD597;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -265,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.oliviergeiger.UserMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = co.oliviergeiger.Architecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -280,7 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UserMVVM/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Architecture/Preview Content\"";
 				DEVELOPMENT_TEAM = R5L72AD597;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -294,7 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.oliviergeiger.UserMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = co.oliviergeiger.Architecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		374DA6482D8B4E1A001E3FCE /* Build configuration list for PBXProject "UserMVVM" */ = {
+		374DA6482D8B4E1A001E3FCE /* Build configuration list for PBXProject "Architecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				374DA6592D8B4E1B001E3FCE /* Debug */,
@@ -314,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		374DA65B2D8B4E1B001E3FCE /* Build configuration list for PBXNativeTarget "UserMVVM" */ = {
+		374DA65B2D8B4E1B001E3FCE /* Build configuration list for PBXNativeTarget "Architecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				374DA65C2D8B4E1B001E3FCE /* Debug */,
